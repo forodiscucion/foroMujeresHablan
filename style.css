@@ -1,0 +1,86 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  main {
+    padding: 1em;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  #new-post {
+    background-color: #fff;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #new-post h2 {
+    margin-top: 0;
+  }
+  
+  #new-post input, #new-post textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #new-post button {
+    padding: 0.5em 1em;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #new-post button:hover {
+    background-color: #45a049;
+  }
+  
+  #posts {
+    background-color: #fff;
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #posts h2 {
+    margin-top: 0;
+  }
+  
+  .post {
+    border-bottom: 1px solid #eee;
+    padding: 1em 0;
+  }
+  
+  .post:last-child {
+    border-bottom: none;
+  }
+  
+  .post h3 {
+    margin: 0 0 0.5em;
+    color: #4CAF50;
+  }
+  
+  .post p {
+    margin: 0;
+  }
+  
+  
+  
+  
